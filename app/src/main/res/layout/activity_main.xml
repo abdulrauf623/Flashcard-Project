@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,18 +13,30 @@
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
         android:textSize="40sp"
-    />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/solution"
+        android:layout_below="@+id/flashcard_content"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_below="@+id/flashcard_content"
         android:gravity="center"
         android:text="Barrack Obama"
         android:textSize="40sp"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="354dp"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="445dp" />
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flashcard_plus_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
