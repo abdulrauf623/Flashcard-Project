@@ -8,7 +8,7 @@ The Flashcard App allows users to add input questions and their answers. The use
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-![Database GIFs](https://user-images.githubusercontent.com/82411397/160254487-a249615a-eee8-41f9-9c75-f68318706f2c.gif)
+![DatabaseGIFgif](https://user-images.githubusercontent.com/82411397/160254863-d55e6a1a-e217-4c9e-aec4-6c88665da104.gif)
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
